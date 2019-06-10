@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>股票模拟</title>
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/head.css">
+    <link rel="stylesheet" href="../static/css/second.css">
+    <script src="../static/js/jquery-1.11.3.js"></script>
+</head>
+<body id="main-body">
+    <!--第一部分-->
+    <div id="head" >
+        <!--头部-->
+        <div class="head-top">
+            <p>客服热线：400-1234-000</p>
+            <ul class="head-text">
+                <!--app下载-->
+                <li class="img-hover">
+                    <a href="#">app下载</a>
+                    <div>
+                        <img src="../static/images/erweima.png">
+                        <p>app下载</p>
+                        <p>掌中股</p>
+                    </div>
+                </li>
+                <!--官方微信-->
+                <li class="img-hover">
+                    <a href="#">官方微信</a>
+                    <div>
+                        <img src="../static/images/erweima.png">
+                        <p>官方微信号</p>
+                        <p>掌中股</p>
+                    </div>
+                </li>
+                <!--登录账号显示-->
+                <li>
+                    <p>欢迎：123456789</p>
+                </li>
+                <!--我的账户-->
+                <li>
+                    <a href="#">我的账户</a>
+                </li>
+            </ul>
+        </div>
+        <!--second第二部分-->
+        <div class="head-bottom">
+            <img src="../static/images/logo.png">
+            <div>
+                <a href="#">首页</a>
+                <a href="#" id="only-set">个人中心</a>
+                <a href="#">帮助中心</a>
+            </div>
+
+        </div>
+    </div>
+<!--第二块主模块-->
+    <div id="second-main">
+        <div class="second-body">
+            <div class="now-show">
+                <p>
+                    大港股份  （  深   002077   ）
+                    <span>更换股票</span>
+                </p>
+            </div>
+            <div class="click-show"  style="display: none;">
+                <div class="btn-table clear">
+                    <input type="text" id="qryKeyword" placeholder="输入股票名称/代码/简拼" class="fl">
+                    <button type="button" class="fl">取消</button>
+                </div>
+                <div class="search-list">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <th width="25%">名称</th>
+                            <th width="25%">代码</th>
+                            <th width="25%">简拼</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr calss="online">
+            <div class="bili">
+                    <p>
+                        <b>7.62</b>
+                        <i class="up"></i>
+                    </p>
+                    <span>
+                        <i class="ml1">+  0.69   +9.96  %</i>
+                    </span>
+                </div>
+            <div class="massage">
+                    <table>
+                        <tr>
+                            <td>买五</td>
+                            <td>0.00</td>
+                            <td>0.00</td>
+                        </tr>
+                        <tr>
+                            <td>买四</td>
+                            <td>0.00</td>
+                            <td>0.00</td>
+                        </tr>
+                        <tr>
+                            <td>买三</td>
+                            <td>0.00</td>
+                            <td>0.00</td>
+                        </tr>
+                        <tr>
+                            <td>买二</td>
+                            <td>0.00</td>
+                            <td>0.00</td>
+                        </tr>
+                        <tr>
+                            <td>买一</td>
+                            <td>0.00</td>
+                            <td>0.00</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>买一</td>
+                            <td>2.98</td>
+                            <td>1.37</td>
+                        </tr>
+                        <tr>
+                            <td>买二</td>
+                            <td>3.69</td>
+                            <td>5.14</td>
+                        </tr>
+                        <tr>
+                            <td>买三</td>
+                            <td>5.65</td>
+                            <td>4.38</td>
+                        </tr>
+                        <tr>
+                            <td>买四</td>
+                            <td>5.23</td>
+                            <td>7.62</td>
+                        </tr>
+                        <tr>
+                            <td>买五</td>
+                            <td>4.53</td>
+                            <td>3.14</td>
+                        </tr>
+                    </table>
+                </div>
+            <div class="gu-message">
+        <h4>股票信息</h4>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td style="width: 100px;">今开</td>
+                <td style="width: 100px;">7.13</td>
+                <td style="width: 50px;">振幅</td>
+                <td style="width: 80px;" class="txt-r">11.11%</td>
+            </tr>
+            <tr>
+                <td>最高</td>
+                <td>7.62</td>
+                <td>最低</td>
+                <td class="txt-r">6.85</td>
+            </tr>
+            <tr>
+                <td>涨停价</td>
+                <td>7.62</td>
+                <td>跌停价</td>
+                <td class="txt-r">6.24</td>
+            </tr>
+            <tr>
+                <td>成交量</td>
+                <td>79.82万手</td>
+                <td>成交额</td>
+                <td class="txt-r">5.89亿元</td>
+            </tr>
+        </tbody></table>
+    </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

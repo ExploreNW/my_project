@@ -1,0 +1,94 @@
+/*设置顶部样式*/
+.head-top{
+    height:36px;
+    background:#393945;
+}
+/*调整客服联系方式*/
+.head-top>p{
+    font-size: 22px;
+    color: #f9ffa0;
+    font-style: italic;
+    float:left;
+    margin: 3px 50px;
+    font-weight: normal;
+    font-family: "PingFangSC-Regular", "microsoft yahei", "sans-serif";
+}
+/*整体对li元素进行设置*/
+.head-text>li{
+    float:right;
+    list-style:none;
+    margin-right:50px;
+    font-size:16px;
+    margin-top:8px;
+}
+/*单独进行颜色设置我的账户*/
+.head-text>li>p{
+    color:red;
+}
+/*隐藏下拉菜单,对隐藏部分的设置*/
+.head-text>li>div{
+    display:none;
+    border:1px solid black;
+    height:155px;
+    width:100px;
+    margin-top:10px;
+    text-align:center;
+    background:white;
+    border-radius:5px;
+}
+.head-text>li>div>img{
+    width:100px;
+    height:100px;
+    margin-top:5px;
+}
+/*设置悬浮显示*/
+.img-hover:hover div{
+    display:block;
+}
+
+
+/*----------------------------------------------------------------------*/
+/*设置第二部分样式*/
+.head-bottom{
+    height:111px;
+}
+/*设置图片样式*/
+.head-bottom>img{
+    height:70px;
+    margin-top:20px;
+    margin-left:50px;
+}
+.head-bottom>div{
+    float:right;
+    margin-top:45px;
+    margin-right:100px;
+}
+/*设置a标签样式*/
+.head-bottom>div>a{
+    margin-right:30px;
+    font-size:20px;
+    color:#6f5c5c;
+}
+/*设置悬浮样式*/
+.head-bottom>div>a:hover{
+    color:#ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
